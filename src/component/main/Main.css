@@ -1,0 +1,27 @@
+/* on screen 450px */
+@media screen and (max-width: 450px) {
+    .box {
+        display: flex;
+        height: 300px;
+    }
+    .box1{
+        width: 50%;
+    }
+    .box1 p{
+        font-size: 25px;
+    }
+    .p2{
+        font-size: 22px !important;
+    }
+    .box2{
+        width: 50%;
+    }
+    .box3{
+        /* width: 100%; */
+        display: none;
+    }
+    .avatar{
+        height: 200px;
+    }
+
+  }
