@@ -2,12 +2,12 @@ import React from 'react'
 import './Main.css'
 // import avatar from '../../assets/_MG_4156.JPG'
 import avatar from '../../assets/122244089-removebg-preview.png'
-import { useNavigate } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 
 
 const Main = () => {
 
-  // const navigate = useNavigate()
+  const navigate = useNavigate()
 
   return (
     <div className='flex box mt-[5%] h-[450px] bg-secondary'>
@@ -17,7 +17,7 @@ const Main = () => {
                   <span className='mt-2 ml-[10%]'>Wahid</span> <span className='text-3xl text-[pink]'>.</span>
             </p>
             <p className='p2 mt-4 ml-[16%] text-[22px] text-[white]'>
-               <span>Github</span> | <span>LinkedIn</span> 
+              <Link to={'www.google.com'} >Github</Link> | <span>LinkedIn</span> 
             </p>
             <div className='ml-[17%] mt-10 w-[150px]'>
                 <button style={{border:'1px solid pink'}} className='w-[100%] h-[50px] bg-[#2E2E35] text-[white]'>Contact Me</button>
