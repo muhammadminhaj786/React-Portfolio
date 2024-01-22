@@ -1,25 +1,38 @@
 import React from "react";
 import * as Unicons from '@iconscout/react-unicons';
-import { UilWindow,UilArrow, UilSearch, UilAndroid } from '@iconscout/react-unicons'
+import { UilWindow,UilArrow, UilSearch, UilAndroid, UilReact, UilJavaScript } from '@iconscout/react-unicons'
+import Marquee from "react-fast-marquee";
 
 const Section2 = () => {
   return (
-    <div className="h-[550px] border bg-secondary p-[20px]">
+    <div className="h-[500px] border bg-secondary p-[20px]">
       <div className="ctn">
-        <h3 className="text-center text-[25px] text-primary mt-4">services</h3>
+        <h3 className="text-center font-bold text-[40px] text-primary mt-3">Skills</h3>
         <h1 className="text-[bold] text-[40px] text-[white] mt-1 text-center">What I Am Great At</h1>
-        <p className="text-center w-[40%] text-[20px] mx-auto text-[white] mt-2">
+        {/* <p className="text-center w-[40%] text-[20px] mx-auto text-[white] mt-2">
           Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
           dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupida non
           proident, sunt in culpa qui officia
-        </p>
+        </p> */}
       </div>
-      <div className="boxes flex mt-8 justify-center gap-[25px]">
-        <div className="box5 w-[20%] h-[210px] border  "> <Unicons.UilWindow className='w-[100px] h-[100px] color-[white] mx-auto mt-[10%]' /><p className="text-2xl text-center text-[white] mt-6">UI/Ux Design</p></div>
-        <div className="box5 w-[20%] h-[210px] border  "><Unicons.UilArrow className='w-[100px] h-[100px] color-[white] mx-auto mt-[10%]' /><p className="text-2xl text-center text-[white] mt-6">Web Development</p></div>
-        <div className="box5 w-[20%] h-[210px] border  "><Unicons.UilSearch className='w-[100px] h-[100px] color-[white] mx-auto mt-[10%]' /><p className="text-2xl text-center text-[white] mt-6">web Search</p></div>
-        <div className="box5 w-[20%] h-[210px] border  "><Unicons.UilAndroid className='w-[100px] h-[100px] color-[white] mx-auto mt-[10%]' /><p className="text-2xl text-center text-[white] mt-6">Backend</p></div>
-      </div>
+       <Marquee 
+                        gradient={false} 
+                        speed={80} 
+                        pauseOnHover={true}
+                        pauseOnClick={true} 
+                        delay={0}
+                        play={true} 
+                        direction="left"
+                    >
+                     <div className="boxes flex mt-[7%] justify-center gap-[25px] w-[100%]">
+        <div className="box5 w-[150px] h-[170px] border  "> <Unicons.UilReact color='#e91e63' className='w-[100px] h-[80px] color-[white] mx-auto mt-[10%]' /><p className="text-[16px] text-center text-[white] mt-6">React</p></div>
+        <div className="box5 shadow-pink p-4 w-[150px] h-[170px] border  "> <Unicons.UilJavaScript color='#e91e63' className='w-[100px] h-[80px] color-[white] mx-auto mt-[10%]' /><p className="text-[16px] text-center text-[white] mt-6">Java Script</p></div>
+        <div className="box5 w-[150px] ring-2 ring-offset-pink-300 p-4 h-[170px] border  "> <Unicons.UilWindow color='#e91e63' className='w-[100px] h-[80px] color-[white] mx-auto mt-[10%]' /><p className="text-[16px] text-center text-[white] mt-6">UI/Ux Design</p></div>
+        <div className="box5 w-[150px] h-[170px] border  "><Unicons.UilArrow color='#e91e63' className='w-[100px] h-[80px] color-[white] mx-auto mt-[10%]' /><p className="text-[16px] text-center text-[white] mt-6">Web Development</p></div>
+        <div className="box5 w-[150px] h-[170px] border  "><Unicons.UilSearch color='#e91e63' className='w-[100px] h-[80px] color-[white] mx-auto mt-[10%]' /><p className="text-[16px] text-center text-[white] mt-6">web Search</p></div>
+        <div className="box5 w-[150px] h-[170px] border  "><Unicons.UilAndroid color='#e91e63' className='w-[100px] h-[80px] color-[white] mx-auto mt-[10%]' /><p className="text-[16px] text-center text-[white] mt-6">Backend</p></div>
+      </div> 
+                    </Marquee>
     </div>
   );
 };

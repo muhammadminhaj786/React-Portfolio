@@ -12,12 +12,12 @@ const Navbar = () => {
 
   return (
     <nav className="flex items-center justify-between  bg-secondary text-white p-9">
-            <div className='ml-[5%] text-[2vw] text-[white] font-bold'>Mj <span className='text-4xl text-[pink]'>.</span> </div>
+            <div className='ml-[5%] text-[2.5vw] text-[white] font-bold'>Mj <span className='text-4xl text-primary'>.</span> </div>
       <ul className="hidden sm:flex space-x-4 ml-[50%] text-[1.4vw] text-[white] font-bold">
-        <li className="hover:border-b-2 hover:border-pink-500  cursor-pointer">Home</li>
-        <li className="hover:border-b-2 hover:border-pink-500 cursor-pointer">About</li>
-        <li className="hover:border-b-2 hover:border-pink-500 cursor-pointer">Services</li>
-        <li className="hover:border-b-2 hover:border-pink-500 cursor-pointer">Contact</li>
+        <li className="hover:border-b-2 hover:border-primary  cursor-pointer">Home</li>
+        <li className="hover:border-b-2 hover:border-primary cursor-pointer">About</li>
+        <li className="hover:border-b-2 hover:border-primary cursor-pointer">Services</li>
+        <li className="hover:border-b-2 hover:border-primary cursor-pointer">Contact</li>
         {/* <Unicons.UilReact /> */}        
       </ul>
       <div className="relative">

@@ -11,15 +11,14 @@ const Section3 = () => {
       <h1 className="text-[bold] text-[40px] text-[white] mt-1 text-center">What I Am Great At</h1>
       <p className="text-center w-[40%] text-[20px] mx-auto text-[white] mt-2">
         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupida non
         proident, sunt in culpa qui officia
       </p>
     </div>
     <div className="boxes flex mt-7 justify-center gap-[25px]">
-      <div className="box5 w-[22%] h-[280px] border  "><img className='h-[100%] w-[100%]' src={pro1} alt="" />https://weather-app-react-nine-omega.vercel.app/</div>
-      <div className="box5 w-[22%] h-[280px] border  ">a</div>
-      <div className="box5 w-[22%] h-[280px] border  ">a</div>
-      <div className="box5 w-[22%] h-[280px] border  ">a</div>
+      {/* <div className="box5 w-[22%] h-[280px] border  "><img className='h-[100%] w-[100%]' src={pro1} alt="" />https://weather-app-react-nine-omega.vercel.app/</div> */}
+      <div className="box5 w-[310px] h-[355px] rounded border  ">a</div>
+      {/* <div className="box5 w-[22%] h-[280px] border  ">a</div> */}
+      {/* <div className="box5 w-[22%] h-[280px] border  ">a</div> */}
     </div>
   </div>
   )

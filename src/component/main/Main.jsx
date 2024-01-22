@@ -17,7 +17,7 @@ const Main = () => {
                   <span className='mt-2 ml-[10%]'>Wahid</span> <span className='text-3xl text-[pink]'>.</span>
             </p>
             <p className='p2 mt-4 ml-[16%] text-[22px] text-[white]'>
-              <Link to={'www.google.com'} >Github</Link> | <span>LinkedIn</span> 
+              <Link to='www.youtube.com' >Github</Link> | <span>LinkedIn</span> 
             </p>
             <div className='ml-[17%] mt-10 w-[150px]'>
                 <button style={{border:'1px solid pink'}} className='w-[100%] h-[50px] bg-[#2E2E35] text-[white]'>Contact Me</button>
