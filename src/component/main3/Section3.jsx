@@ -1,7 +1,8 @@
 import React from 'react'
-import * as Unicons from '@iconscout/react-unicons';
-import { UilWindow } from '@iconscout/react-unicons'
+
 import pro1 from '../../assets/pro1.PNG'
+import ProjectCard from '../ProjectCard';
+import { Grid } from '@mui/material';
 
 const Section3 = () => {
   return (
@@ -14,11 +15,18 @@ const Section3 = () => {
         proident, sunt in culpa qui officia
       </p>
     </div>
-    <div className="boxes flex mt-7 justify-center gap-[25px]">
-      {/* <div className="box5 w-[22%] h-[280px] border  "><img className='h-[100%] w-[100%]' src={pro1} alt="" />https://weather-app-react-nine-omega.vercel.app/</div> */}
-      <div className="box5 w-[310px] h-[355px] rounded border  ">a</div>
-      {/* <div className="box5 w-[22%] h-[280px] border  ">a</div> */}
-      {/* <div className="box5 w-[22%] h-[280px] border  ">a</div> */}
+    <div>
+    <Grid container spacing={2}>
+  <Grid item xs={12} md={6} lg={4}>
+    <ProjectCard />
+  </Grid>
+  <Grid item xs={12} md={6} lg={4}>
+    <ProjectCard />
+  </Grid>
+  <Grid item xs={12} md={6} lg={4}>
+    <ProjectCard />
+  </Grid>
+</Grid>
     </div>
   </div>
   )

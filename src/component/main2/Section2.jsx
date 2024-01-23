@@ -5,7 +5,7 @@ import Marquee from "react-fast-marquee";
 
 const Section2 = () => {
   return (
-    <div className="h-[500px] border bg-secondary p-[20px]">
+    <div className="h-[500px] border border-[black] bg-secondary p-[20px]">
       <div className="ctn">
         <h3 className="text-center font-bold text-[40px] text-primary mt-3">Skills</h3>
         <h1 className="text-[bold] text-[40px] text-[white] mt-1 text-center">What I Am Great At</h1>
@@ -24,13 +24,13 @@ const Section2 = () => {
                         play={true} 
                         direction="left"
                     >
-                     <div className="boxes flex mt-[7%] justify-center gap-[25px] w-[100%]">
-        <div className="box5 w-[150px] h-[170px] border  "> <Unicons.UilReact color='#e91e63' className='w-[100px] h-[80px] color-[white] mx-auto mt-[10%]' /><p className="text-[16px] text-center text-[white] mt-6">React</p></div>
-        <div className="box5 shadow-pink p-4 w-[150px] h-[170px] border  "> <Unicons.UilJavaScript color='#e91e63' className='w-[100px] h-[80px] color-[white] mx-auto mt-[10%]' /><p className="text-[16px] text-center text-[white] mt-6">Java Script</p></div>
-        <div className="box5 w-[150px] ring-2 ring-offset-pink-300 p-4 h-[170px] border  "> <Unicons.UilWindow color='#e91e63' className='w-[100px] h-[80px] color-[white] mx-auto mt-[10%]' /><p className="text-[16px] text-center text-[white] mt-6">UI/Ux Design</p></div>
-        <div className="box5 w-[150px] h-[170px] border  "><Unicons.UilArrow color='#e91e63' className='w-[100px] h-[80px] color-[white] mx-auto mt-[10%]' /><p className="text-[16px] text-center text-[white] mt-6">Web Development</p></div>
-        <div className="box5 w-[150px] h-[170px] border  "><Unicons.UilSearch color='#e91e63' className='w-[100px] h-[80px] color-[white] mx-auto mt-[10%]' /><p className="text-[16px] text-center text-[white] mt-6">web Search</p></div>
-        <div className="box5 w-[150px] h-[170px] border  "><Unicons.UilAndroid color='#e91e63' className='w-[100px] h-[80px] color-[white] mx-auto mt-[10%]' /><p className="text-[16px] text-center text-[white] mt-6">Backend</p></div>
+                     <div className="boxes flex mt-[5%] justify-center gap-[25px] w-[100%] h-[230px]  p-4">
+        <div className="box5 w-[150px]  shadow-lg shadow-primary h-[170px] border border-primary rounded-lg hover:scale-[1.2]   "> <Unicons.UilReact color='#e91e63' className='w-[100px] h-[80px] color-[white] mx-auto mt-[10%]' /><p className="text-[16px] text-center text-[white] mt-6">React</p></div>
+        <div className="box5  shadow-lg shadow-primary w-[150px] h-[170px] border border-primary rounded-lg hover:scale-[1.2] "> <Unicons.UilJavaScript color='#e91e63' className='w-[100px] h-[80px] color-[white] mx-auto mt-[10%]' /><p className="text-[16px] text-center text-[white] mt-6">Java Script</p></div>
+        <div className="box5 w-[150px]  shadow-lg shadow-primary h-[170px] border border-primary rounded-lg hover:scale-[1.2]"> <Unicons.UilWindow color='#e91e63' className='w-[100px] h-[80px] color-[white] mx-auto mt-[10%]' /><p className="text-[16px] text-center text-[white] mt-6">UI/Ux Design</p></div>
+        <div className="box5 w-[150px]  shadow-lg shadow-primary h-[170px] border border-primary rounded-lg hover:scale-[1.2] "><Unicons.UilArrow color='#e91e63' className='w-[100px] h-[80px] color-[white] mx-auto mt-[10%]' /><p className="text-[16px] text-center text-[white] mt-6">Web Development</p></div>
+        <div className="box5 w-[150px]  shadow-lg shadow-primary h-[170px] border border-primary rounded-lg hover:scale-[1.2]"><Unicons.UilSearch color='#e91e63' className='w-[100px] h-[80px] color-[white] mx-auto mt-[10%]' /><p className="text-[16px] text-center text-[white] mt-6">web Search</p></div>
+        <div className="box5 w-[150px]  shadow-lg shadow-primary h-[170px] border border-primary rounded-lg hover:scale-[1.2]"><Unicons.UilAndroid color='#e91e63' className='w-[100px] h-[80px] color-[white] mx-auto mt-[10%]' /><p className="text-[16px] text-center text-[white] mt-6">Backend</p></div>
       </div> 
                     </Marquee>
     </div>
