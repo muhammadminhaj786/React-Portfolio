@@ -3,7 +3,8 @@ import * as Unicons from '@iconscout/react-unicons';
 import UilReact from '@iconscout/react-unicons/icons/uil-react'
 import { UilAlignJustify } from '@iconscout/react-unicons'
 import { motion } from "framer-motion"
-import Animation from './Animation';
+import Animation from '../Animation';
+import './Navbar.css'
 
 const Navbar = () => {
   const [isDropdownOpen, setDropdownOpen] = useState(false);
@@ -12,32 +13,11 @@ const Navbar = () => {
     setDropdownOpen(!isDropdownOpen);
   };
 
-  const icon = {
-    hidden: {
-      pathLength: 0,
-      fill: "rgba(255, 255, 255, 0)"
-    },
-    visible: {
-      pathLength: 1,
-      fill: "rgba(255, 255, 255, 1)"
-    }
-  }
 
   return (
     <nav className="flex items-center justify-between  bg-secondary text-white p-9">
-       <svg
-    xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 100 100"
-  >
-    <motion.path
-      d="M0 100V0l50 50 50-50v100L75 75l-25 25-25-25z"
-      variants={icon}
-      initial="hidden"
-      animate="visible"
-    />
-  </svg>
 
-            <div className='ml-[5%] text-[2.5vw] text-[white] font-bold'>Mj <span className='text-4xl text-primary'>.</span> </div>
+            <div className=' brand ml-[5%] text-[2.5vw] text-[white] font-bold'>Mj <span className='text-4xl text-primary'>.</span> </div>
       <ul className="hidden sm:flex space-x-4 ml-[50%] text-[1.4vw] text-[white] font-bold">
         <li className="hover:border-b-2 hover:border-primary  cursor-pointer">Home</li>
         <li className="hover:border-b-2 hover:border-primary cursor-pointer">About</li>
@@ -52,7 +32,9 @@ const Navbar = () => {
         >
           Toolbar Button
         </button> */}
-        <Unicons.UilAlignJustify className='sm:hidden ' onClick={toggleDropdown} /> 
+        <div className='sm:hidden  h-[40px] p-[6px] w-[40px] bg-primary rounded-[30px] border border-secondary'>
+        <Unicons.UilAlignJustify size='25px' className='sm:hidden ' onClick={toggleDropdown} /> 
+        </div>
 
         {isDropdownOpen && (
           <div className="sm:hidden absolute bg-gray-800 text-white mt-2 p-2 rounded right-0">

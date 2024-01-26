@@ -1,0 +1,8 @@
+/* on screen 450px */
+@media screen and (max-width: 450px) {
+    .brand{
+        font-size: 30px !important;
+    }
+    
+
+  }

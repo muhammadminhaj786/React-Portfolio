@@ -1,0 +1,15 @@
+/* on screen 450px */
+@media screen and (max-width: 450px) {
+    .foot-ctn{
+        font-size: 10px !important;
+        font-weight: bold;
+        padding-left: 10px !important;
+    }
+    .social{
+        height: 32px;
+        width: 32px;
+        border-radius: 32px;
+        padding: 4px;
+    }
+    
+  }

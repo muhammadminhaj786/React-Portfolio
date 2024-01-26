@@ -28,7 +28,7 @@ const Main = () => {
         </div>
         <div className='w-[30%] box3'>
           <h1 className='w-[80%] text-[20px] mt-[40px] mx-auto text-primary'>Introduction</h1>
-          <p className='text-[40px] w-[80%] mx-auto text-[white]'>
+          <p className='text-[20px] w-[80%] mx-auto text-[white]'>
             Mern Stack Developer.
             web dev
           </p>
