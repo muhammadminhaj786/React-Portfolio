@@ -20,8 +20,8 @@ const Navbar = () => {
             <div className=' brand ml-[5%] text-[2.5vw] text-[white] font-bold'>Mj <span className='text-4xl text-primary'>.</span> </div>
       <ul className="hidden sm:flex space-x-4 ml-[50%] text-[1.4vw] text-[white] font-bold">
         <li className="hover:border-b-2 hover:border-primary  cursor-pointer">Home</li>
-        <li className="hover:border-b-2 hover:border-primary cursor-pointer">About</li>
-        <li className="hover:border-b-2 hover:border-primary cursor-pointer">Services</li>
+        <li className="hover:border-b-2 hover:border-primary cursor-pointer">Skills</li>
+        <li className="hover:border-b-2 hover:border-primary cursor-pointer">Projects</li>
         <li className="hover:border-b-2 hover:border-primary cursor-pointer">Contact</li>
         {/* <Unicons.UilReact /> */}    
       </ul>
@@ -39,8 +39,8 @@ const Navbar = () => {
         {isDropdownOpen && (
           <div className="sm:hidden absolute bg-gray-800 text-white mt-2 p-2 rounded right-0">
             <div className="hover:underline cursor-pointer">Home</div>
-            <div className="hover:underline cursor-pointer">About</div>
-            <div className="hover:underline cursor-pointer">Services</div>
+            <div className="hover:underline cursor-pointer">Skills</div>
+            <div className="hover:underline cursor-pointer">Projects</div>
             <div className="hover:underline cursor-pointer">Contact</div>
           </div>
         )}

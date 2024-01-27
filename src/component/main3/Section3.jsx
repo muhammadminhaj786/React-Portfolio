@@ -6,6 +6,7 @@ import { motion } from "framer-motion"
 import ProjectCard from '../product/ProjectCard';
 import * as Unicons from '@iconscout/react-unicons';
 import { UilWindow, UilCloudMoonMeatball, UilPlay, UilGithub, UilBlogger  } from '@iconscout/react-unicons'
+import ScrollAnimation from '../ScrollAnimation';
 
 
 const Section3 = () => {
@@ -20,7 +21,7 @@ const Section3 = () => {
         proident, sunt in culpa qui officia
       </p>
     </div>
-    <div className='mt-4'>
+    <div className='mt-4 pl-5'>
     <Grid container spacing={2}>
   <Grid item xs={12} sm={6} md={6} lg={4}>
     <ProjectCard ele={<Unicons.UilCloudMoonMeatball color='#e91e63' size='200px' />} heading={'Weather App'} />
