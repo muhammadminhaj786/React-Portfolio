@@ -3,6 +3,7 @@ import './Main.css'
 // import avatar from '../../assets/_MG_4156.JPG'
 import avatar from '../../assets/122244089-removebg-preview.png'
 import { Link, useNavigate } from 'react-router-dom'
+import { Cursor, Typewriter, useTypewriter } from 'react-simple-typewriter'
 
 
 const Main = () => {
@@ -12,10 +13,29 @@ const Main = () => {
   return (
     <div className='flex box mt-[5%] h-[450px] bg-secondary'>
         <div className='w-[30%] box1'>
-            <p className='mt-[40px]  ml-[16%] text-[white] text-5xl font-bold '>
+            {/* <p className='mt-[40px]  ml-[16%] text-[white] text-5xl font-bold '>
                 Minhaj <br />
                   <span className='mt-2 ml-[10%]'>Wahid</span> <span className='text-3xl text-[pink]'>.</span>
-            </p>
+            </p> */}
+            <div className="flex">
+      <div className="border-2 border-primary p-4 ml-5">
+        {/* Your dynamic content goes here */}
+        {/* <p>{textContent}</p> */}
+        {/* <Cursor cursorStyle="|" /> */}
+        <span style={{ color: 'white', fontWeight: 'bold' }}>
+          {/* Style will be inherited from the parent element */}
+          <Typewriter
+            words={['Full Stack Developer', 'React js developer', 'Mern stack Developer']}
+            loop={false}
+            cursor
+            cursorStyle='_'
+            typeSpeed={100}
+            deleteSpeed={50}
+            delaySpeed={1000}
+          />
+        </span>
+      </div>
+    </div>
             <p className='p2 mt-4 ml-[16%] text-[22px] text-[white]'>
               <Link to='www.youtube.com' >Github</Link> | <span>LinkedIn</span> 
             </p>

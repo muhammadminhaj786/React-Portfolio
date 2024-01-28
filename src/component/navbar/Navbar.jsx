@@ -3,7 +3,6 @@ import * as Unicons from '@iconscout/react-unicons';
 import UilReact from '@iconscout/react-unicons/icons/uil-react'
 import { UilAlignJustify } from '@iconscout/react-unicons'
 import { motion } from "framer-motion"
-import Animation from '../Animation';
 import './Navbar.css'
 
 const Navbar = () => {

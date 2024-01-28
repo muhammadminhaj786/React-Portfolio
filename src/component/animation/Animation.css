@@ -1,0 +1,17 @@
+.badge-cmp,
+.tag-cmp {
+  padding: 1rem 2rem;
+  border: var(--white-color);
+  border-radius: 15px;
+  flex-direction: row;
+  width: auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+p {
+    width: 100%;
+    text-transform: uppercase;
+    text-align: right;
+    /* color: var(--secondary-color); */
+    font-weight: bold;
+    color: white !important;
+  }

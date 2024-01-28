@@ -7,6 +7,7 @@ import ProjectCard from '../product/ProjectCard';
 import * as Unicons from '@iconscout/react-unicons';
 import { UilWindow, UilCloudMoonMeatball, UilPlay, UilGithub, UilBlogger  } from '@iconscout/react-unicons'
 import ScrollAnimation from '../ScrollAnimation';
+import Animation from '../animation/Animation';
 
 
 const Section3 = () => {
@@ -33,6 +34,7 @@ const Section3 = () => {
     <ProjectCard  ele={<Unicons.UilCloudMoonMeatball color='#e91e63' size='200px' />} heading={'App'} />
   </Grid>
 </Grid>
+    <Animation />
     </div>
   </div>
   </>
