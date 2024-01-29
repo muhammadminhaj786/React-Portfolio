@@ -1,27 +1,18 @@
 /* on screen 450px */
 @media screen and (max-width: 450px) {
-    .box {
-        display: flex;
-        height: 300px;
+    .box{
+        display: block;
     }
-    .box1{
-        width: 50%;
-    }
-    .box1 p{
-        font-size: 25px;
-    }
-    .p2{
-        font-size: 22px !important;
-    }
-    .box2{
-        width: 50%;
+    .new-box{
+        width: 100%;
     }
     .box3{
-        /* width: 100%; */
-        display: none;
+        width: 100%;
+        border: 3px solid yellow;
+        height: 320px;
     }
-    .avatar{
-        height: 200px;
+    p{
+        font-size: 16px !important;
     }
 
-  }
+  } 

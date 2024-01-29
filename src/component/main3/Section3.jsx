@@ -34,7 +34,6 @@ const Section3 = () => {
     <ProjectCard  ele={<Unicons.UilCloudMoonMeatball color='#e91e63' size='200px' />} heading={'App'} />
   </Grid>
 </Grid>
-    <Animation />
     </div>
   </div>
   </>
