@@ -5,6 +5,7 @@
     }
     .new-box{
         width: 100%;
+        padding: 2px !important;
     }
     .box3{
         width: 100%;
@@ -13,6 +14,15 @@
     }
     p{
         font-size: 16px !important;
+    }
+    .typewriter{
+        height: 46px;
+        padding: 4px !important;
+        margin: 0px;
+        border-radius: 8px;
+    }
+    .typewriter span{
+        font-size: 14px;
     }
 
   } 

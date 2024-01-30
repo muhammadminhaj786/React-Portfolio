@@ -13,14 +13,14 @@ const Main = () => {
 
   return (
     <div className='flex box mt-[5%] w-[100%] h-auto bg-secondary'>
-        <div className='new-box w-[70%]  flex '>
+        <div className='new-box w-[70%]  flex p-[40px] '>
         <div className='w-[50%]  box1 '>
             {/* <p className='mt-[40px]  ml-[16%] text-[white] text-5xl font-bold '>
                 Minhaj <br />
                   <span className='mt-2 ml-[10%]'>Wahid</span> <span className='text-3xl text-[pink]'>.</span>
             </p> */}
             <div className="flex">
-      <div className="border-2 border-primary p-4 ml-6 rounded-[10px] bg-white">
+      <div className="border-2 border-primary p-4 ml-6 typewriter rounded-[10px] bg-white">
         {/* Your dynamic content goes here */}
         {/* <p>{textContent}</p> */}
         {/* <Cursor cursorStyle="|" /> */}
@@ -45,8 +45,8 @@ const Main = () => {
                 <button className='w-[100%] h-[50px] bg-[#2E2E35] text-[white] border border-primary'>Contact Me</button>
             </div>
         </div>
-        <div className='w-[50%] box2 h-[300px] '>
-          <img  className='avatar h-[70%]' src={avatar} alt="" />
+        <div className='w-[50%] box2  '>
+          <img  className='avatar  h-[100%]' src={avatar} alt="" />
         </div>
         </div>
         <div className='w-[30%] border border-green-400 box3'>
