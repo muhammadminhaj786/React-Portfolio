@@ -8,12 +8,13 @@ import * as Unicons from '@iconscout/react-unicons';
 import { UilWindow, UilCloudMoonMeatball, UilPlay, UilGithub, UilBlogger  } from '@iconscout/react-unicons'
 import ScrollAnimation from '../ScrollAnimation';
 import Animation from '../animation/Animation';
+import './Section3.css'
 
 
 const Section3 = () => {
   return (
     <>
-    <div className="h-[100%] border bg-secondary p-[40px]">
+    <div className="h-[100%] main-sec border bg-secondary p-[40px]">
     <div className="ctn">
       <h3 className="text-center text-[40px] font-bold text-primary mt-1">Projects</h3>
       <h1 className="text-[bold] text-[40px] text-[white]  text-center">What I Am Great At</h1>
