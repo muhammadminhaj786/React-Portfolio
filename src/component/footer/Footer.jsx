@@ -5,8 +5,9 @@ import './Footer.css'
 
 const Footer = () => {
   return (
-    <div className='bg-secondary h-[80px] flex justify-between'>
-           <div className='flex gap-3 mt-4'>
+    <div className='bg-black h-[90px] p-4 '>
+        <div className='w-[80%]    mx-auto flex justify-between'>
+           <div className='flex gap-3 mt-4 '>
           <div className=' bg-primary social h-[40px] w-[40px] rounded-[30px] p-[7px]'><Unicons.UilLinkedin className='icon' color='white' size='23px' /></div>
           <div className=' bg-primary social h-[40px] w-[40px] rounded-[30px] p-[7px]'><Unicons.UilFacebook  className='icon' color='white' size='23px' /></div>
           <div className=' bg-primary social h-[40px] w-[40px] rounded-[30px] p-[7px]'><Unicons.UilInstagram className='icon' color='white' size='23px' /></div>
@@ -16,6 +17,7 @@ const Footer = () => {
             Copyright - Tortoiz | All Rights Reserved
             </p>
         </div>
+      </div>
     </div>
   )
 }

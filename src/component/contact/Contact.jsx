@@ -44,7 +44,7 @@ const Contact = () => {
 
   return (
     <>
-      <div className="bg-secondary ">
+      <div id="contact" className="bg-secondary h-[650px] border border-white ">
       <h3 className="text-center font-bold text-[40px] text-primary ">Contact</h3>
         <h1 className="text-[bold] p-text text-[36px] text-[white]  text-center">Take A Coffee & Chat With Me</h1>
       <div className="app__contact-cards">
