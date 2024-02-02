@@ -23,5 +23,11 @@
     .typewriter span{
         font-size: 14px;
     }
+    .new-txt{
+        font-size: 14px !important;
+        align-items: center;
+        width: 75%;
+        margin: 10px auto;
+    }
 
   } 

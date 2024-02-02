@@ -16,7 +16,7 @@ const Navbar = () => {
     const navigate = useNavigate();
 
   return (
-    <nav className="flex items-center justify-between  bg-secondary text-white p-9">
+    <nav className="flex items-center justify-between  bg-main text-white p-9">
 
             <div className=' brand ml-[5%] text-[2.5vw] text-[white] font-bold'>Mj <span className='text-4xl text-primary'>.</span> </div>
       <ul className="hidden sm:flex space-x-4 ml-[50%] text-[1.4vw] text-[white] font-bold">
@@ -39,10 +39,10 @@ const Navbar = () => {
 
         {isDropdownOpen && (
           <div className="sm:hidden absolute bg-gray-800 text-white mt-2 p-2 rounded right-0">
-            <div className="hover:underline cursor-pointer" >Home</div>
-            <div className="hover:underline cursor-pointer">Skills</div>
-            <div className="hover:underline cursor-pointer">Projects</div>
-            <div className="hover:underline cursor-pointer">Contact</div>
+            <div className="hover:underline cursor-pointer" ><a href="#intro">Home</a></div>
+            <div className="hover:underline cursor-pointer"><a href="#skills">Skills</a></div>
+            <div className="hover:underline cursor-pointer"><a href="#projects">Projects</a></div>
+            <div className="hover:underline cursor-pointer"><a href="#contact">Contact</a></div>
           </div>
         )}
       </div>

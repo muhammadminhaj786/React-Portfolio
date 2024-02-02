@@ -5,7 +5,7 @@ import './Footer.css'
 
 const Footer = () => {
   return (
-    <div className='bg-black h-[90px] p-4 '>
+    <div className='bg-main border-t-2 border-gold h-[90px] p-4 '>
         <div className='w-[80%]    mx-auto flex justify-between'>
            <div className='flex gap-3 mt-4 '>
           <div className=' bg-primary social h-[40px] w-[40px] rounded-[30px] p-[7px]'><Unicons.UilLinkedin className='icon' color='white' size='23px' /></div>

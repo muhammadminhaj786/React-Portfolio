@@ -44,19 +44,19 @@ const Contact = () => {
 
   return (
     <>
-      <div id="contact" className="bg-secondary h-[650px] border border-white ">
+      <div id="contact" className="bg-secondary h-[650px]  ">
       <h3 className="text-center font-bold text-[40px] text-primary ">Contact</h3>
         <h1 className="text-[bold] p-text text-[36px] text-[white]  text-center">Take A Coffee & Chat With Me</h1>
       <div className="app__contact-cards">
         <div className="flex container-1 mx-auto w-[50%] mt-3 gap-[15px]">
-        <div className="flex border-2 border-primary w-[50%] bg-black h-[62px] rounded-[10px] ">
-        <div className="w-[15%] p-[6px]"><Unicons.UilEnvelopeShare color='#e91e63' size='45px' /></div>
+        <div className="flex border-2 border-primary w-[50%] bg-main h-[62px] rounded-[10px] ">
+        <div className="w-[15%] p-[6px]"><Unicons.UilEnvelopeShare color='#e0a747' size='45px' /></div>
         <div className="w-[85%]">  <p className="text-[white] text-[16px] p-[18px]">
             mminhajwahidm@gmail.com
           </p></div>
         </div>
-        <div className="flex border-2 border-primary w-[50%] bg-black h-[62px] rounded-[10px] ">
-        <div className="w-[15%] p-[6px]"><Unicons.UilSelfie color='#e91e63' size='45px' /></div>
+        <div className="flex border-2 border-primary w-[50%] bg-main h-[62px] rounded-[10px] ">
+        <div className="w-[15%] p-[6px]"><Unicons.UilSelfie color='#e0a747' size='45px' /></div>
         <div className="w-[85%]">  <p className="text-[white] text-[20px] p-[18px]">
             0316 1117686
           </p></div>
@@ -68,7 +68,7 @@ const Contact = () => {
           <div >
             <input 
               type="text"
-              className=" w-[100%] mt-3 bg-black text-white placeholder-white p-3 rounded-[10px] h-[55px]"
+              className=" w-[100%] mt-3 bg-main text-white placeholder-white p-3 rounded-[10px] h-[55px]"
               placeholder="Your Name"
               value={name}
               onChange={handleChangeInput}
@@ -78,7 +78,7 @@ const Contact = () => {
           <div className="app__flex">
             <input
               type="email"
-              className=" w-[100%] mt-3 bg-black text-white placeholder-white p-3 rounded-[10px] h-[55px]"
+              className=" w-[100%] mt-3 bg-main text-white placeholder-white p-3 rounded-[10px] h-[55px]"
               placeholder="Your Email"
               value={email}
               onChange={handleChangeInput}
@@ -88,7 +88,7 @@ const Contact = () => {
           <div className="app__flex">
             <input 
               type="text"
-              className=" w-[100%] mt-3 bg-black text-white placeholder-white p-3 rounded-[10px] h-[55px]"
+              className=" w-[100%] mt-3 bg-main text-white placeholder-white p-3 rounded-[10px] h-[55px]"
               placeholder="Subject"
               value={subject}
               onChange={handleChangeInput}
@@ -97,7 +97,7 @@ const Contact = () => {
           </div>
           <div>
             <textarea
-              className="w-[100%] mt-3 bg-black text-white placeholder-white p-3 rounded-[10px] h-[90px]"
+              className="w-[100%] mt-3 bg-main text-white placeholder-white p-3 rounded-[10px] h-[90px]"
               name="message"
               placeholder="Your Message"
               value={message}
@@ -107,7 +107,7 @@ const Contact = () => {
           <div className="w-[30%] btn-container mt-[20px]  mx-auto ">
           <button
             type="button"
-            className="h-[60px] w-[300px] btn border-2 border-primary text-white bg-black rounded-[10px]"
+            className="h-[60px] w-[300px] btn border-2 border-primary text-white bg-main rounded-[10px]"
             onClick={handleSubmit}
           >
             {loading ? "Sending Message" : "Send Message"}

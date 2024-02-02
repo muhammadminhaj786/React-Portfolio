@@ -5,7 +5,7 @@ import { UilWindow, UilCloudMoonMeatball, UilPlay, UilGithub, UilBlogger  } from
 const ProjectCard = ({ele, heading}) => {
   // const ele = <Unicons.UilCloudMoonMeatball color='#e91e63' size='200px' />
   return (
-    <div className="box5 w-[320px] bg-black h-[360px] rounded border-2 border-primary ">
+    <div className="box5 w-[320px] bg-secondary h-[360px] rounded border-2 border-primary ">
         <div className='h-[60px]'>
             <p className='font-bold mt-2 text-center text-primary text-[25px]'>
                 {heading}

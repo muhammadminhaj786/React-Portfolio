@@ -4,7 +4,7 @@ import Home from './pages/Home'
 
 const App = () => {
   return (
-    <div className='bg-secondary h-[100vh]'>
+    <div className='bg-main h-[100vh]'>
       <Home  />
     </div>
   )
