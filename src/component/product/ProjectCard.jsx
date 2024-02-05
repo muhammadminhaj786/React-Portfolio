@@ -2,7 +2,7 @@ import React from 'react'
 import * as Unicons from '@iconscout/react-unicons';
 import { UilWindow, UilCloudMoonMeatball, UilPlay, UilGithub, UilBlogger  } from '@iconscout/react-unicons'
 
-const ProjectCard = ({ele, heading}) => {
+const ProjectCard = ({ele, heading, playLink, githubLink}) => {
   // const ele = <Unicons.UilCloudMoonMeatball color='#e91e63' size='200px' />
   return (
     <div className="box5 w-[320px] bg-secondary h-[360px] rounded border-2 border-primary ">
@@ -17,8 +17,8 @@ const ProjectCard = ({ele, heading}) => {
         </div>
 
         <div className='flex justify-between mt-[5%] w-[90%] mx-auto'>
-            <div className='h-[50px] bg-primary rounded-[30px] w-[50px] border border-[white] p-[9px]'> <Unicons.UilPlay size='33px' color='white' /></div>
-            <div className='h-[50px] bg-primary rounded-[30px] w-[50px] border border-[white] p-[9px]'> <Unicons.UilGithub  size='33px' color='white' /></div>
+            <a href={playLink}><div className='h-[50px] bg-primary rounded-[30px] w-[50px] border border-[white] p-[9px]'> <Unicons.UilPlay size='33px' color='white' /></div></a>
+            <a href={githubLink}><div className='h-[50px] bg-primary rounded-[30px] w-[50px] border border-[white] p-[9px]'> <Unicons.UilGithub  size='33px' color='white' /></div></a>
         </div>
     </div>
   )

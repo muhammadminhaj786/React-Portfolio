@@ -5,7 +5,7 @@ import { Grid } from '@mui/material';
 import { motion } from "framer-motion"
 import ProjectCard from '../product/ProjectCard';
 import * as Unicons from '@iconscout/react-unicons';
-import { UilWindow, UilCloudMoonMeatball, UilPlay, UilGithub, UilBlogger  } from '@iconscout/react-unicons'
+import { UilWindow, UilCloudMoonMeatball, UilPlay, UilGithub, UilBlogger, UilDiaryAlt   } from '@iconscout/react-unicons'
 import ScrollAnimation from '../ScrollAnimation';
 import Animation from '../animation/Animation';
 import './Section3.css'
@@ -26,13 +26,13 @@ const Section3 = () => {
     <div className='mt-8 pl-5'>
     <Grid container spacing={2}>
   <Grid item xs={12} sm={6} md={6} lg={4}>
-    <ProjectCard ele={<Unicons.UilCloudMoonMeatball color='#e0a747' size='200px' />} heading={'Weather App'} />
+    <ProjectCard ele={<Unicons.UilCloudMoonMeatball color='#e0a747' size='200px' />} heading={'Weather App'} playLink={'https://weather-app-react-nine-omega.vercel.app/'} githubLink={'https://github.com/muhammadminhaj786/weatherApp-react'} />
   </Grid>
   <Grid item xs={12} sm={6} md={6} lg={4}>
-    <ProjectCard  ele={<Unicons.UilBlogger color='#e0a747' size='200px' />} heading={'Blogging App'} />
+    <ProjectCard  ele={<Unicons.UilBlogger color='#e0a747' size='200px' />} heading={'Blogging App'} playLink={'https://muhammadminhaj786.github.io/mini-hacakthon/'} githubLink={'https://github.com/muhammadminhaj786/mini-hacakthon'} />
   </Grid>
   <Grid item xs={12} sm={6} md={6} lg={4}>
-    <ProjectCard  ele={<Unicons.UilCloudMoonMeatball color='#e0a747' size='200px' />} heading={'App'} />
+    <ProjectCard  ele={<Unicons.UilDiaryAlt color='#e0a747' size='200px' />} heading={'Attendence App'} githubLink={'https://github.com/muhammadminhaj786/final-hackathon'} />
   </Grid>
 </Grid>
     </div>
