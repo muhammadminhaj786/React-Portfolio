@@ -6,7 +6,7 @@ import Section3 from '../component/main3/Section3'
 import Footer from '../component/footer/Footer'
 import Navbar from '../component/navbar/Navbar'
 import Contact from '../component/contact/Contact'
-import Resume from '../component/resume/Resume'
+
 
 
 const Home = () => {
@@ -19,7 +19,7 @@ const Home = () => {
             <Section3 />
             <Contact />
             <Footer />
-            {/* <Resume /> */}
+
         </div>
     </div>
   )

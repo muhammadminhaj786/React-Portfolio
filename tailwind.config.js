@@ -10,7 +10,7 @@ export default {
         'primary': '#e0a747',
         'secondary': '#34343b',
         'main': '#302c34',
-        'gold': '#e0a747'
+        'gold': '#e0a74'
       }
     },
   },

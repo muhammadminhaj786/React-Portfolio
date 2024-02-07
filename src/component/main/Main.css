@@ -29,5 +29,15 @@
         width: 75%;
         margin: 10px auto;
     }
+    .resume-btn{
+        width: 100px;
+        height: 40px;
+        padding-top: 5px;
+        border-radius: 10px;
+    }
+    .resume-btn a{
+        margin-left: 18px;
+        font-size: 16px !important;
+    }
 
   } 

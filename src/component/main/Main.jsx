@@ -7,6 +7,7 @@ import { Cursor, Typewriter, useTypewriter } from 'react-simple-typewriter'
 import Animation from '../animation/Animation'
 
 
+
 const Main = () => {
 
   const navigate = useNavigate()
@@ -38,12 +39,12 @@ const Main = () => {
         </span>
       </div>
     </div>
-            <p className='  new-txt p2 mt-3 mx-auto text-[1.7vw] text-[white]'>Assalam O Alaikum, My name is Minhaj .</p>
+            <p className=' border border-white new-txt p2 mt-3 mx-auto text-[1.7vw] text-[white]'>My name is Minhaj .</p>
             <p className=' p2 mt-3 ml-[16%] text-[22px] text-[white]'>
             <a href="https://github.com/muhammadminhaj786">GitHub</a> | <a href="https://www.linkedin.com/in/muhammad-minhaj-wahid-7b47781ba/">LinkedIn</a>
             </p>
-            <div className='ml-[17%] mt-8 w-[150px]'>
-                <button className='w-[100%] h-[50px] bg-secondary text-[white] border-2 border-gold'>Contact Me</button>
+            <div className='ml-[17%] resume-btn mt-8 w-[140px] h-[60px] bg-secondary rounded-[10px] border border-primary pt-4 '>
+                <a className='text-white ml-9 font-bold '  href='minhaj wahid (mern stack ).pdf' download='minhaj(mern stack).pdf'>Resume</a>
             </div>
         </div>
         <div className='w-[50%] box2  '>
