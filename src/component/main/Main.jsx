@@ -5,6 +5,7 @@ import avatar from '../../assets/pixelcut-export.png'
 import { Link, useNavigate } from 'react-router-dom'
 import { Cursor, Typewriter, useTypewriter } from 'react-simple-typewriter'
 import Animation from '../animation/Animation'
+import { motion } from "framer-motion";
 
 
 
@@ -20,8 +21,26 @@ const Main = () => {
                 Minhaj <br />
                   <span className='mt-2 ml-[10%]'>Wahid</span> <span className='text-3xl text-[pink]'>.</span>
             </p> */}
+              <div style={{marginLeft:'35%'}} className='name-box rounded-[10px] border-2 border-secondary  w-[180px] p-2 h-[70px] bg-secondary'>
+            <motion.div
+        whileInView={{ x: [-100, 0], opacity: [0, 1] }}
+        transition={{ duration: 0.5 }}
+        className="app__header-info"
+      >
+        <div className="app__header-badge">
+          <div className="badge-cmp flex">
+            <span className='text-[35px] hand'>👋</span>
+            <div style={{ marginLeft: 20 }} className='hand-div'>
+              <p className="text-white">Hello, I am</p>
+              <p className="text-white">Minahj</p>
+            </div>
+          </div>
+        </div>
+      </motion.div>
+            </div>
             <div className="flex">
-      <div className="border-2  border-gold p-4 ml-6 typewriter rounded-[10px] bg-secondary">
+              
+      <div className="border-2 mt-8 border-secondary p-4 ml-6 typewriter rounded-[10px] bg-secondary">
         {/* Your dynamic content goes here */}
         {/* <p>{textContent}</p> */}
         {/* <Cursor cursorStyle="|" /> */}
@@ -39,11 +58,11 @@ const Main = () => {
         </span>
       </div>
     </div>
-            <p className=' border border-white new-txt p2 mt-3 mx-auto text-[1.7vw] text-[white]'>My name is Minhaj .</p>
+            
             <p className=' p2 mt-3 ml-[16%] text-[22px] text-[white]'>
-            <a href="https://github.com/muhammadminhaj786">GitHub</a> | <a href="https://www.linkedin.com/in/muhammad-minhaj-wahid-7b47781ba/">LinkedIn</a>
+            <a className='hover:text-primary' href="https://github.com/muhammadminhaj786">GitHub</a> | <a className='hover:text-primary' href="https://www.linkedin.com/in/muhammad-minhaj-wahid-7b47781ba/">LinkedIn</a>
             </p>
-            <div className='ml-[17%] resume-btn mt-8 w-[140px] h-[60px] bg-secondary rounded-[10px] border border-primary pt-4 '>
+            <div className='ml-[17%] resume-btn mt-8 w-[140px] h-[60px] bg-secondary rounded-[10px] border border-primary pt-4 hover:bg-primary '>
                 <a className='text-white ml-9 font-bold '  href='minhaj wahid (mern stack ).pdf' download='minhaj(mern stack).pdf'>Resume</a>
             </div>
         </div>

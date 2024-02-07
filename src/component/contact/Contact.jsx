@@ -107,7 +107,7 @@ const Contact = () => {
           <div className="w-[30%] btn-container mt-[20px]  mx-auto ">
           <button
             type="button"
-            className="h-[60px] w-[300px] btn border-2 border-primary text-white bg-main rounded-[10px]"
+            className="h-[60px] w-[300px] hover:bg-primary btn border-2 border-primary text-white bg-main rounded-[10px]"
             onClick={handleSubmit}
           >
             {loading ? "Sending Message" : "Send Message"}

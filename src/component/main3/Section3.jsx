@@ -18,13 +18,12 @@ const Section3 = () => {
     <div className="ctn">
       <h3 className="text-center text-[40px] font-bold text-primary mt-1">Projects</h3>
       <h1 className="text-[bold] text-[40px] text-[white]  text-center">What I Am Great At</h1>
-      <p className="text-center w-[40%] text-[20px] mx-auto text-[white] mt-[5px]">
-        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-        proident, sunt in culpa qui officia
+      <p className="text-center  project-ctn w-[40%] text-[20px] mx-auto text-[white] mt-[5px]">
+      I am a MERN stack developer with expertise in MongoDB, Express.js, React.js, and Node.js.
       </p>
     </div>
     <div className='mt-8 pl-5'>
-    <Grid container spacing={2}>
+    <Grid container spacing={2} >
   <Grid item xs={12} sm={6} md={6} lg={4}>
     <ProjectCard ele={<Unicons.UilCloudMoonMeatball color='#e0a747' size='200px' />} heading={'Weather App'} playLink={'https://weather-app-react-nine-omega.vercel.app/'} githubLink={'https://github.com/muhammadminhaj786/weatherApp-react'} />
   </Grid>
